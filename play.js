@@ -1,8 +1,13 @@
 var name = 'Mjj';
 var age = 25;
 var hasHobbies = true;
+let exc = '!'
 
 function sumerizeUser(userName, userAge, userHasHobbies) {
+    if (userHasHobbies == true) {
+        userHasHobbies = 'Sim!';
+    };
+
     return (
         'O nome é ' + userName
     + ', a idade é ' + userAge

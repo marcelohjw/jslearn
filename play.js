@@ -14,4 +14,5 @@ console.log('Meus hobbbys: ');
 for (let hobby of hobbies) {
     console.log(hobby);
 }
+hobbies.push('Treinar');
 console.log(hobbies);

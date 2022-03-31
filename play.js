@@ -6,4 +6,12 @@ const person = {
     }
 };
 
+
 person.greet();
+
+const hobbies = ['Esportes', 'Cozinhar'];
+console.log('Meus hobbbys: ');
+for (let hobby of hobbies) {
+    console.log(hobby);
+}
+console.log(hobbies);
